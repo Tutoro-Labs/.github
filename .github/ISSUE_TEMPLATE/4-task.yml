@@ -1,5 +1,5 @@
 name: Task
-description: A concrete technical step of a user story.
+description: A concrete technical step of a user story or bug.
 type: Task
 body:
   - type: textarea

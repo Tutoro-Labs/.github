@@ -1,5 +1,5 @@
 name: Bug
-description: Something that does not work as intended.
+description: Something that does not work as intended; link it under the feature it affects.
 type: Bug
 body:
   - type: markdown
