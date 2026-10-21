@@ -1,0 +1,22 @@
+name: Feature
+description: A piece of functionality under an epic, split into user stories.
+type: Feature
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What can users do once the feature is done?
+    validations:
+      required: true
+  - type: textarea
+    id: ideas
+    attributes:
+      label: Ideas
+      description: Decisions and ideas so far; link the feature doc if there is one.
+  - type: textarea
+    id: builds-on
+    attributes:
+      label: Builds on
+      description: Issues this feature needs first; add them as "blocked by" links as well.
+      placeholder: "- #3 – customer ledger"

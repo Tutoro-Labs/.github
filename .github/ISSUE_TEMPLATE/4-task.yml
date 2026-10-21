@@ -1,0 +1,15 @@
+name: Task
+description: A concrete technical step of a user story.
+type: Task
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      placeholder: "- [ ] …"
