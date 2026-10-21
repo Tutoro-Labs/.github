@@ -6,4 +6,5 @@ Organisation-wide defaults for every repository of Tutoro Labs that has none of 
   sets its issue type.
 
 Work item hierarchy as in Azure DevOps, linked as sub-issues: Epic → Feature → User Story / Bug → Task. A Bug sits next
-to the user stories under the feature it affects; tasks belong to a story or a bug. New projects start from the organisation's project template "Scrum template".
+to the user stories under the feature it affects, or under the epic when no feature fits (e.g. CI or infrastructure);
+tasks belong to a story or a bug. New projects start from the organisation's project template "Scrum template".
